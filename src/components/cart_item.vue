@@ -8,7 +8,7 @@
             <div class="cart">
                 <div class="cart_desc">
                     <p>{{prodName}}</p>
-                    <p class="p_prix">{{prodPrix}} FCFA</p>
+                    <p class="p_prix">{{prodPrix.toLocaleString('en-US')}} FCFA</p>
                 </div>
                 <div class="qte_manage">
                     <button  @click="least_qte()" >-</button><span class="Space">|</span>

@@ -6,7 +6,7 @@
                       <img class="prod-image" v-bind:src="imageUrl" />
                   </div>
                   <p class="pro-prix">
-                    {{prodPrix}} FCFA
+                    {{prodPrix.toLocaleString('en-US')}} FCFA
                   </p>
                   <p class="nom-pro">
                     {{prodName}}
@@ -36,10 +36,12 @@ import store from '@/store'
              //console.log(store.state.cart)
             if(is==true){
                store.dispatch('add_cart_action', this.product)
+               store.dispatch('updateCartlen')
                console.log(store.state)
             }
             else{
                store.dispatch('del_cart_action', this.product)
+               store.dispatch('updateCartlen')
                console.log("Delete")
             }
         

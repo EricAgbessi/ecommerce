@@ -32,7 +32,7 @@ export default createStore({
             img2:"https://media.istockphoto.com/photos/podium-display-with-monstra-deliciosa-and-frosted-glass-copy-space-picture-id1219737366?k=20&m=1219737366&s=612x612&w=0&h=UD2LtTMVLiTJ9mlFckeqaA6sk93yg2bPj98QU4eZeBo=",
             img3:"https://media.istockphoto.com/photos/podium-display-on-beige-background-with-palm-tree-leaf-tropical-picture-id1219741106?b=1&k=20&m=1219741106&s=612x612&w=0&h=grZvCv_nIBzCbUszei5J6mmY8fKdlPN8RhU_aiVhIpI=",
             prodName:"MacBook pro 14 pouces",
-            prodPrix:"500 000",
+            prodPrix:500000,
             iSpopula:true,
             categorie:1,
             isAddToCart:false
@@ -44,7 +44,7 @@ export default createStore({
             img2:"https://media.istockphoto.com/photos/podium-display-with-monstra-deliciosa-and-frosted-glass-copy-space-picture-id1219737366?k=20&m=1219737366&s=612x612&w=0&h=UD2LtTMVLiTJ9mlFckeqaA6sk93yg2bPj98QU4eZeBo=",
             img3:"https://media.istockphoto.com/photos/podium-display-on-beige-background-with-palm-tree-leaf-tropical-picture-id1219741106?b=1&k=20&m=1219741106&s=612x612&w=0&h=grZvCv_nIBzCbUszei5J6mmY8fKdlPN8RhU_aiVhIpI=",
             prodName:"MacBook pro 14 pouces",
-            prodPrix:"500 000",
+            prodPrix:500000,
             iSpopula:true,
             categorie:1,
             isAddToCart:false
@@ -57,7 +57,7 @@ export default createStore({
             img2:"https://media.istockphoto.com/photos/podium-display-with-monstra-deliciosa-and-frosted-glass-copy-space-picture-id1219737366?k=20&m=1219737366&s=612x612&w=0&h=UD2LtTMVLiTJ9mlFckeqaA6sk93yg2bPj98QU4eZeBo=",
             img3:"https://media.istockphoto.com/photos/podium-display-on-beige-background-with-palm-tree-leaf-tropical-picture-id1219741106?b=1&k=20&m=1219741106&s=612x612&w=0&h=grZvCv_nIBzCbUszei5J6mmY8fKdlPN8RhU_aiVhIpI=",
             prodName:"MacBook pro 14 pouces",
-            prodPrix:"500 000",
+            prodPrix:500000,
             categorie:2,
             iSpopula:true,
             isAddToCart:false
@@ -70,7 +70,7 @@ export default createStore({
             img2:"https://media.istockphoto.com/photos/podium-display-with-monstra-deliciosa-and-frosted-glass-copy-space-picture-id1219737366?k=20&m=1219737366&s=612x612&w=0&h=UD2LtTMVLiTJ9mlFckeqaA6sk93yg2bPj98QU4eZeBo=",
             img3:"https://media.istockphoto.com/photos/podium-display-on-beige-background-with-palm-tree-leaf-tropical-picture-id1219741106?b=1&k=20&m=1219741106&s=612x612&w=0&h=grZvCv_nIBzCbUszei5J6mmY8fKdlPN8RhU_aiVhIpI=",
             prodName:"MacBook pro 14 pouces",
-            prodPrix:"500 000",
+            prodPrix:500000,
             categorie:2,
             iSpopula:true,
             isAddToCart:false
@@ -83,7 +83,7 @@ export default createStore({
             img2:"https://media.istockphoto.com/photos/podium-display-with-monstra-deliciosa-and-frosted-glass-copy-space-picture-id1219737366?k=20&m=1219737366&s=612x612&w=0&h=UD2LtTMVLiTJ9mlFckeqaA6sk93yg2bPj98QU4eZeBo=",
             img3:"https://media.istockphoto.com/photos/podium-display-on-beige-background-with-palm-tree-leaf-tropical-picture-id1219741106?b=1&k=20&m=1219741106&s=612x612&w=0&h=grZvCv_nIBzCbUszei5J6mmY8fKdlPN8RhU_aiVhIpI=",
             prodName:"MacBook pro 14 pouces",
-            prodPrix:"500 000",
+            prodPrix:500000,
             categorie:3,
             iSpopla:true,
             isAddToCart:false
@@ -96,7 +96,7 @@ export default createStore({
             img2:"https://media.istockphoto.com/photos/podium-display-with-monstra-deliciosa-and-frosted-glass-copy-space-picture-id1219737366?k=20&m=1219737366&s=612x612&w=0&h=UD2LtTMVLiTJ9mlFckeqaA6sk93yg2bPj98QU4eZeBo=",
             img3:"https://media.istockphoto.com/photos/podium-display-on-beige-background-with-palm-tree-leaf-tropical-picture-id1219741106?b=1&k=20&m=1219741106&s=612x612&w=0&h=grZvCv_nIBzCbUszei5J6mmY8fKdlPN8RhU_aiVhIpI=",
             prodName:"MacBook pro 14 pouces",
-            prodPrix:"500 000",
+            prodPrix:500000,
             categorie:3,
             iSpopula:false,
             isAddToCart:false
@@ -109,7 +109,7 @@ export default createStore({
           img2:"https://media.istockphoto.com/photos/podium-display-with-monstra-deliciosa-and-frosted-glass-copy-space-picture-id1219737366?k=20&m=1219737366&s=612x612&w=0&h=UD2LtTMVLiTJ9mlFckeqaA6sk93yg2bPj98QU4eZeBo=",
           img3:"https://media.istockphoto.com/photos/podium-display-on-beige-background-with-palm-tree-leaf-tropical-picture-id1219741106?b=1&k=20&m=1219741106&s=612x612&w=0&h=grZvCv_nIBzCbUszei5J6mmY8fKdlPN8RhU_aiVhIpI=",
           prodName:"MacBook pro 14 pouces",
-          prodPrix:"500 000",
+          prodPrix:500000,
           categorie:4,
           iSpopula:false,
           isAddToCart:false
@@ -122,7 +122,7 @@ export default createStore({
           img2:"https://media.istockphoto.com/photos/podium-display-with-monstra-deliciosa-and-frosted-glass-copy-space-picture-id1219737366?k=20&m=1219737366&s=612x612&w=0&h=UD2LtTMVLiTJ9mlFckeqaA6sk93yg2bPj98QU4eZeBo=",
           img3:"https://media.istockphoto.com/photos/podium-display-on-beige-background-with-palm-tree-leaf-tropical-picture-id1219741106?b=1&k=20&m=1219741106&s=612x612&w=0&h=grZvCv_nIBzCbUszei5J6mmY8fKdlPN8RhU_aiVhIpI=",
           prodName:"MacBook pro 14 pouces",
-          prodPrix:"500 000",
+          prodPrix:500000,
           categorie:4,
           iSpopula:false,
           isAddToCart:false
@@ -135,7 +135,7 @@ export default createStore({
           img2:"https://media.istockphoto.com/photos/podium-display-with-monstra-deliciosa-and-frosted-glass-copy-space-picture-id1219737366?k=20&m=1219737366&s=612x612&w=0&h=UD2LtTMVLiTJ9mlFckeqaA6sk93yg2bPj98QU4eZeBo=",
           img3:"https://media.istockphoto.com/photos/podium-display-on-beige-background-with-palm-tree-leaf-tropical-picture-id1219741106?b=1&k=20&m=1219741106&s=612x612&w=0&h=grZvCv_nIBzCbUszei5J6mmY8fKdlPN8RhU_aiVhIpI=",
           prodName:"MacBook pro 14 pouces",
-          prodPrix:"500 000",
+          prodPrix:500000,
           categorie:1,
           iSpopula:false,
           isAddToCart:false
@@ -156,7 +156,7 @@ export default createStore({
         if(product_==produit){
           product_.isAddToCart=true
           state.cart.push( product_ )
-          state.cartlen=state.cart.length
+  
           console.log(this.state.cart.length)
         }      
       }
@@ -172,22 +172,31 @@ export default createStore({
       for(let product_ of state.cart){
         if(product_==produit){
             state.cart.splice(i,1)
-            state.cartlen=state.cart.length
+           
             console.log(this.state.cart.length)
 
         }
         i=i+1
       }
 
-    }
+    },
+    updateCartlen(state){
+      state.cartlen=state.cart.length
+      console.log(state.cartlen)
+    },
+    
   },
-  
+ 
   actions: {
     add_cart_action(context,payload){
       context.commit('addcart',payload)
     },
     del_cart_action(context,payload){
       context.commit('delcartproduct',payload)
+    },
+    updateCartlen(context){
+      context.commit('updateCartlen')
+    
     }
   },
   modules: {

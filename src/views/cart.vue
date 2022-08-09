@@ -7,8 +7,8 @@
         </div>  
         <Cart_item v-for="item in cart_list" :img="item.imageUrl" :prodName="item.prodName" :prodPrix="item.prodPrix" :product="item"></Cart_item>
         <div class="resume">
-            <p>Nombre de produit: <cartlenght v-bind:cartlen="cartlen"></cartlenght></p>
-            <p>Total: 3258 FCFA</p>
+            <p>Nombre de produit: {{get_cart_len}}</p>
+            <p>Total: {{ get_cart_price }} FCFA</p>
         </div>
         <button class="add_to_cart">Proceder au payement</button>
     </div>
@@ -35,6 +35,19 @@
         },
         methods:{
             
+        },
+        computed:{
+            get_cart_len(){  
+              return store.state.cart.length
+            },
+            get_cart_price(){ 
+                let price=0; 
+                for(let item of store.state.cart){
+                    price=price+parseFloat(item.prodPrix)
+                    console.log(price)
+                }
+              return price.toLocaleString('en-US');
+            }
         }
     }
 

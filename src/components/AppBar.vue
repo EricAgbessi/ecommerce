@@ -12,7 +12,7 @@
         <li class="cart">
               <router-link to="/cart">
                   <fa class="icon fa" icon="cart-shopping" />
-                  <span class='badge badge-warning' id='lblCartCount'> {{ cartlen }} </span>
+                  <span class='badge badge-warning' id='lblCartCount'> {{ get_cart_len }} </span>
               </router-link>
         </li>
         
