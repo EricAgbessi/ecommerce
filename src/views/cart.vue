@@ -10,7 +10,10 @@
             <p>Nombre de produit: {{get_cart_len}}</p>
             <p>Total: {{ get_cart_price }} FCFA</p>
         </div>
-        <button class="add_to_cart">Proceder au payement</button>
+        <router-link to="/Checkout" class="add_to_cart">
+            Proceder au payement
+        </router-link>
+        
     </div>
 </template>
 

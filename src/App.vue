@@ -10,17 +10,7 @@
 
 
 <style>
-@font-face {
-  font-family: "Montserrat";
-  src: local("Montserrat"),
-   url(../public/font/Montserrat-VariableFont_wght.ttf) format("truetype");
-}
 
-@font-face {
-  font-family: "play";
-  src: local("play"),
-   url(../public/font/play/PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
-}
 
 #app {
   font-family: Montserrat,Avenir, Helvetica, Arial, sans-serif;
