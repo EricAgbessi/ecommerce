@@ -32,7 +32,7 @@
                 <h4>Description</h4>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At earum quibusdam sint nisi exercitationem repellat itaque unde esse expedita? Nulla ex consequatur officiis blanditiis voluptatibus. Sed architecto quos dicta officia.</p>
             </div>
-            <button class="add_to_cart">Ajouter au panier</button>
+            <button class="add_to_cart" >Ajouter au panier</button>
         </div>
     </div>
 </template>

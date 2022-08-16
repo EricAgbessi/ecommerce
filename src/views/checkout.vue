@@ -32,23 +32,89 @@
 
         <div class="payement_">
             <div class="pay">
-                <div class="pay_imge">
+                <div :class="img">
                 </div>
                 <div class="pay_num">
                     <p>
-                        1245 
-                        &#x2022;&#x2022;&#x2022;&#x2022; &#x2022;&#x2022;&#x2022;&#x2022; &#x2022;&#x2022;&#x2022;&#x2022;
+                        &#x2022;&#x2022;&#x2022;&#x2022; &#x2022;&#x2022;&#x2022;&#x2022; &#x2022;&#x2022;&#x2022;&#x2022;  1245 
                     </p>
                 </div>
             </div>
            
             <div class="pay_change">
-                <p class="fcfa">Changer</p>
+               <!-- <router-link to="/payement">--> 
+                    <p @click="animate_payement_change" class="fcfa">Changer</p>
+               <!--  </router-link> -->
+                
             </div>
         </div>
         <router-link to="/Checkout" class="add_to_cart">
             Proceder au payement
         </router-link>
+
+<!-- 1111111111111111111111111111111111111111111111111111111111111111111111111111111-->
+<!-- 1111111111111111111111111111111111111111111111111111111111111111111111111111111-->
+<!-- 1111111111111111111111111111111111111111111111111111111111111111111111111111111-->
+
+
+
+    <div :class="payement_class" >
+        <div class="close" @click="close"><span>X</span></div>
+        <div class="payement_">
+            <div class="pay">
+                <div class="card_imge">
+                </div>
+                <div class="pay_num">
+                    <p>
+                        
+                        &#x2022;&#x2022;&#x2022;&#x2022; &#x2022;&#x2022;&#x2022;&#x2022; &#x2022;&#x2022;&#x2022;&#x2022; 1245 
+                    </p>
+                </div>
+            </div>
+           
+            <div class="pay_change">
+                <input @click="pay_change" name="cart" value="cc" type="radio" />
+            </div>
+        </div>
+        
+        <div class="payement_">
+            <div class="pay">
+                <div class="mm_imge">
+                </div>
+                <div class="pay_num">
+                    <p>
+                       &#x2022;&#x2022; &#x2022;&#x2022; &#x2022;&#x2022; 36
+                    </p>
+                </div>
+            </div>
+           
+            <div class="pay_change">
+                <input @click="pay_change" name="cart" value="mm" type="radio" />
+            </div>
+        </div>
+
+        <div class="payement_">
+            <div class="pay">
+                <div class="mmo_imge">
+                </div>
+                <div class="pay_num">
+                    <p>   
+                        &#x2022;&#x2022; &#x2022;&#x2022; &#x2022;&#x2022; 36
+                    </p>
+                </div>
+            </div>
+           
+            <div class="pay_change">
+                <input @click="pay_change" name="cart" value="mmo" type="radio" />
+            </div>
+        </div>
+        <router-link to="/EditCart">
+            <button class="add_to_cart_">Modifier les moayens de payement</button>
+        </router-link>
+    </div>
+
+
+
     </div>
 </template>
 
@@ -56,8 +122,44 @@
 import appbarsec from '@/components/appbarsec.vue'
     export default{
         name:"Checkout",
+        data(){
+            return{
+                payement_class:"select-payement",
+                img:"pay_imge"
+            }
+        },  
         components:{
-            appbarsec
+            appbarsec,
+        },
+        methods:{
+            animate_payement_change(event){
+               /*let position=-300
+                let interval=setInterval(()=>{
+                    position=position+1
+                    this.animated_bottom='bottom:'+position+'px;'
+                    console.log(this.animated_bottom)
+                    if(position==0){
+                        clearInterval(interval)
+                    }
+                },1)*/
+
+                this.payement_class="select-payement_animate"
+            },
+            close(){
+                this.payement_class="select-payement"
+            },
+            pay_change(event){
+                console.log(event.target.value)
+                if(event.target.value=="cc"){
+                    this.img="pay_imge"
+                }
+                else if(event.target.value=="mm"){
+                    this.img="mm_imge"
+                }
+                else if(event.target.value=="mmo"){
+                    this.img="mmo_imge"
+                }
+            }
         }
     }
 </script>
@@ -170,6 +272,61 @@ import appbarsec from '@/components/appbarsec.vue'
         border: none;
         font-size: 16px;
         border-radius: 15px;
-        width:auto;
+        
     }
+     .add_to_cart_{
+        margin-top:20px;
+        padding:10px 10px;
+        background-color:#E82F24 ;
+        color:white;
+        border: none;
+        font-size: 16px;
+        border-radius: 15px;
+        width:100%;
+    }
+    
+     .card_imge{
+        background-image: url("../assets/visa.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px;
+
+    }
+    .mm_imge{
+        background-image: url("../assets/moov.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width:70px;
+
+    }
+    .mmo_imge{
+        background-image: url("../assets/mtn.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width:70px;
+
+    }
+    .select-payement{
+        position:absolute;
+        bottom:-300px;
+        width:90%;
+
+    }
+    .select-payement_animate{
+        position:absolute;
+        width:90%;
+        bottom:0px;       
+    }
+    .close{
+        display: flex;
+        flex-direction:row;
+        justify-content: flex-end;
+    }
+     .close > span{
+        color:#ccc;
+        font-weight:bold;
+     }
 </style>

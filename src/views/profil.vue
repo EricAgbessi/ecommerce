@@ -28,8 +28,10 @@
                     <div class="not-num">3</div>
                 </div>
                 <div>
-                    <fa class="icon fa" icon="sign-out" />
-                    Logout
+                    <router-link to="/signIn">
+                        <fa class="icon fa" icon="sign-out" />
+                         Logout
+                    </router-link>
                 </div>
         </div>
     </div>

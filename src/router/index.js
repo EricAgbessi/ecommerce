@@ -57,6 +57,27 @@ const routes = [
     name:'Checkout',
     component:()=> import ('../views/checkout.vue')
   },
+  {
+    path:'/payement',
+    name:'payement',
+    component:()=> import ('../views/payement.vue')
+  },
+  {
+    path:'/EditCart',
+    name:'EditCart',
+    component:()=> import ('../views/editcart.vue')
+  },
+  {
+    path:'/signIn',
+    name:'signIn',
+    component:()=> import ('../views/signIn.vue')
+  },
+  {
+    path:'/SignUp',
+    name:'SignUp',
+    component:()=> import ('../views/singnUp.vue')
+  },
+  
 ]
 
 
