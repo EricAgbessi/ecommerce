@@ -1,9 +1,11 @@
 <template>
     <appbarsec></appbarsec>
     <div class="container">
+       <h2>Creation de nouveau compte</h2>
+       <input class="input" placeholder="Nom" type="text" />
        <input class="input" placeholder="Email" type="text" />
        <input class="input"  placeholder="Password" type="text" />
-       <button class="button">Connexion</button>
+       <button class="button">Inscription</button>
     </div>
 </template>
 
@@ -21,7 +23,7 @@ import appbarsec from '@/components/appbarsec.vue';
     .container{
         display: flex;
         flex-direction: column;
-
+        padding-top:100px;
         height: 100%;
     }
     .input{

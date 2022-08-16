@@ -7,6 +7,7 @@
         <input class="input" placeholder="Email" type="text" />
         <input class="input"  placeholder="Password" type="text" />
         <button class="button">Connexion</button>
+        <p>Mot de passe Oublier ?</p>
         <div class="social_connexion">
             <div class="google">
                 <img src="../assets/google.png" width="10%"/>
@@ -17,7 +18,7 @@
                 <p>Continuez avec facebook</p>
             </div>
         </div>
-        <p>Mot de passe Oublier ?</p>
+        
         <router-link to="/SignUp">
             <p>S'inscrire</p>
         </router-link>
